@@ -6,7 +6,7 @@ class HitAndBlowGame:
     def __init__(self, master):
         self.master = master
         master.title("Hit & Blow")
-        master.geometry("300x400") # ウィンドウサイズを指定
+        master.geometry("400x400") # ウィンドウサイズを指定
 
         # --- ゲームの内部的な準備 ---
         # 正解の数字を生成
